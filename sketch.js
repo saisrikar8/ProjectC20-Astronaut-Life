@@ -62,6 +62,8 @@ function draw() {
   if (keyDown("m")){
     astronaut.addAnimation("floating", moveAnimation);
     astronaut.changeAnimation("floating");
+    astronaut.velocityY = 2;
+    astronaut.velocityX = 2;
   }
   background(255,255,255);
   drawSprites();
