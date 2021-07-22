@@ -61,7 +61,7 @@ function draw() {
   }
   if (keyDown("m")){
     astronaut.addAnimation("floating", moveAnimation);
-    astronaut.changeAnimation("floating", moveAnimation);
+    astronaut.changeAnimation("floating");
   }
   background(255,255,255);
   drawSprites();
