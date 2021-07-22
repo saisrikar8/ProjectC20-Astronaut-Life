@@ -3,7 +3,7 @@ var iss, astronaut, issimg;
 var edges;
 var textNum = 1;
 function preload(){
-  moveAnimation = loadAnimation("move.png", "move1.png");
+  moveAnimation = loadAnimation("move.png", "move.png", "move1.png", "move1.png");
   bathAnimation = loadAnimation("bath1.png", "bath2.png");
   brushimg = loadAnimation("brush.png");
   drinkAnimation = loadAnimation("drink1.png", "drink2.png");
